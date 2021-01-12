@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  
+  #product
+  {
+      position: relative;
+      text-align: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-bottom: 0;
+  }
+
+  @media screen and (max-width: 400px){
+    span{
+        text-align: left;
+    }
+        .clean-info p{
+    display: none;
+        }
+    
+        body{ font-size: 12px;}
+       
+        
+    }

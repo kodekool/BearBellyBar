@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "security.token",
+      "type": "process.security.config.TokenSecurityProperties",
+      "sourceType": "process.security.config.TokenSecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.token.bearer-expiration-time",
+      "type": "java.lang.Long",
+      "sourceType": "process.security.config.TokenSecurityProperties"
+    },
+    {
+      "name": "security.token.bearer-token-prefix",
+      "type": "java.lang.String",
+      "sourceType": "process.security.config.TokenSecurityProperties"
+    },
+    {
+      "name": "security.token.bearer-type",
+      "type": "java.lang.String",
+      "sourceType": "process.security.config.TokenSecurityProperties"
+    },
+    {
+      "name": "security.token.cookie-name",
+      "type": "java.lang.String",
+      "sourceType": "process.security.config.TokenSecurityProperties"
+    },
+    {
+      "name": "security.token.cookie-type",
+      "type": "java.lang.String",
+      "sourceType": "process.security.config.TokenSecurityProperties"
+    },
+    {
+      "name": "security.token.header-name",
+      "type": "java.lang.String",
+      "sourceType": "process.security.config.TokenSecurityProperties"
+    },
+    {
+      "name": "security.token.remember-expiration-time",
+      "type": "java.lang.Long",
+      "sourceType": "process.security.config.TokenSecurityProperties"
+    },
+    {
+      "name": "security.token.secret",
+      "type": "java.lang.String",
+      "sourceType": "process.security.config.TokenSecurityProperties"
+    },
+    {
+      "name": "security.token.session-expiration-time",
+      "type": "java.lang.Long",
+      "sourceType": "process.security.config.TokenSecurityProperties"
+    }
+  ],
+  "hints": []
+}
