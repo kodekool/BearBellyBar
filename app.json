@@ -1,7 +1,10 @@
 {
   "name": "BearBellyBar",
   "description": "Minimal Agency Customer Relationship Management Demo APP",
-  "website": "https://git.heroku.com/bearbellybar.git",
+  "website": "https://bearbellybar.com",
+  "repository": "https://github.com/Thitari-Somboon/BearBellyBar.git",
+
+
   "env": {
     "TOKEN_SECRET": {
       "description": "A secret key for verifying the integrity of JWT.",
