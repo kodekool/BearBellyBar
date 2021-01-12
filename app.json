@@ -1,5 +1,5 @@
 {
-  "name": "BearBellyBar",
+  "name": "bbb",
   "description": "This app is a part of student IT-Project FHNW 2020.",
 
   "env": {
@@ -9,7 +9,7 @@
     },
     "PATH_TO_PROJECT": {
       "description": "The path to the default deployment of the multi module project.",
-      "value": "bearbellybar"
+      "value": "BearBellyBar"
     },
     "WEB_CONCURRENCY": {
       "description": "The number of processes to run.",
@@ -17,7 +17,7 @@
     },
     "MAVEN_CUSTOM_OPTS": {
       "description": "Define the default deployment of the multi module project.",
-      "value": "-pl bearbellybar"
+      "value": "-pl BearBellyBar"
     }
   },
   "addons": [ "heroku-postgresql" ]
