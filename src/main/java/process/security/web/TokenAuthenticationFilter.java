@@ -1,7 +1,6 @@
 package process.security.web;
 
 import process.security.config.TokenSecurityProperties;
-import process.security.service.TokenService;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.MalformedJwtException;
 import io.jsonwebtoken.SignatureException;
@@ -12,6 +11,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 import org.springframework.web.util.WebUtils;
+import process.security.service.TokenService;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
