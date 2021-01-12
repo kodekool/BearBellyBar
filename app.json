@@ -20,13 +20,6 @@
       "description": "Define the default deployment of the multi module project.",
       "value": "-pl bearbellybar"
     },
-    "addons": [
-      "heroku-postgresql"
-    ],
-    "buildpacks": [
-      {
-        "url": "https://github.com/Thitari-Somboon/BearBellyBar"
-      }
-    ]
+    "addons": ["heroku-postgresql"]
   }
 }
