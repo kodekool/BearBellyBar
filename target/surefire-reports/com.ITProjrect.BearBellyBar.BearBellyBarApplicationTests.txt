@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ITProjrect.BearBellyBar.BearBellyBarApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.382 s - in com.ITProjrect.BearBellyBar.BearBellyBarApplicationTests
