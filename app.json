@@ -1,7 +1,6 @@
 {
-  "name": "BearBellyBar",
+  "name": "bbb",
   "description": "This app is a part of student IT-Project FHNW 2020.",
-
   "env": {
     "TOKEN_SECRET": {
       "description": "A secret key for verifying the integrity of JWT.",
