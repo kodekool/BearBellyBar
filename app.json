@@ -1,8 +1,7 @@
 {
-  "name": "BearBellyBar",
+  "name": "bearbellybar",
   "description": "This app is a part of student IT-Project FHNW 2020.",
   "website": "https://bearbellybar.com/",
-  "repository": "https://github.com/Thitari-Somboon/BearBellyBar",
   "env": {
     "TOKEN_SECRET": {
       "description": "A secret key for verifying the integrity of JWT.",
