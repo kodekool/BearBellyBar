@@ -2,20 +2,24 @@
   "name": "BearBellyBar",
   "description": "This app is a part of student IT-Project FHNW 2020.",
   "website": "https://bearbellybar.com/",
-  "repository": "https://github.com/jane-doe/small-sharp-tool",
+  "repository": "https://github.com/Thitari-Somboon/BearBellyBar",
   "env": {
     "TOKEN_SECRET": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
+      "description": "A secret key for verifying the integrity of JWT.",
       "generator": "secret"
     },
     "PATH_TO_PROJECT": {
       "description": "The path to the default deployment of the multi module project.",
-      "value": "BearBellyBar"
+      "value": "bearbellybar"
+    },
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "5"
     },
     "MAVEN_CUSTOM_OPTS": {
       "description": "Define the default deployment of the multi module project.",
       "value": "-pl bearbellybar"
     }
   },
-    "addons": ["heroku-postgresql"]
-  }
+  "addons": [ "heroku-postgresql" ]
+}
