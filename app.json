@@ -12,10 +12,6 @@
       "description": "The path to the default deployment of the multi module project.",
       "value": "BearBellyBar"
     },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
-    },
     "MAVEN_CUSTOM_OPTS": {
       "description": "Define the default deployment of the multi module project.",
       "value": "-pl bearbellybar"
