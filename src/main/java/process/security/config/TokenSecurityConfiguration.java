@@ -21,7 +21,7 @@ public class TokenSecurityConfiguration {
         this.entityManagerFactory = entityManagerFactory;
         LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
         entityManagerFactoryBean.setDataSource(dataSource);
-        entityManagerFactoryBean.setPackagesToScan("rocks.process.security.model");
+        entityManagerFactoryBean.setPackagesToScan("process.security.model");
         entityManagerFactoryBean.setJpaVendorAdapter(vendorAdapter);
         entityManagerFactoryBean.setJpaProperties(additionalProperties());
         entityManagerFactoryBean.afterPropertiesSet();
