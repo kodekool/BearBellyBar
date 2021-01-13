@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BearBellyBar" target="15" />
+      <module name="BearBellyBar" target="14" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
