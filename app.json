@@ -1,22 +1,9 @@
 {
   "name": "bbb",
-  "description": "This app is a part of student IT-Project FHNW 2020.",
   "env": {
     "TOKEN_SECRET": {
       "description": "A secret key for verifying the integrity of JWT.",
       "generator": "secret"
-    },
-    "PATH_TO_PROJECT": {
-      "description": "The path to the default deployment of the multi module project.",
-      "value": "BearBellyBar"
-    },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
-    },
-    "MAVEN_CUSTOM_OPTS": {
-      "description": "Define the default deployment of the multi module project.",
-      "value": "-pl BearBellyBar"
     }
   },
   "addons": [ "heroku-postgresql" ]
